@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gemstones", "Gemstones\Gems
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Left Rotation Of Array With the help of List", "Left Rotation Of Array\Left Rotation Of Array With the help of List.csproj", "{DCAAF87F-83A2-410A-B6A0-9C844198E504}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InsertsionSort", "InsertsionSort\InsertsionSort.csproj", "{DAA467E2-E8DB-4DD5-A055-E0693BC8DF7B}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Random Name Generator", "Random Name Generator\Random Name Generator.csproj", "{D0A4D536-4A65-4C4B-A649-ED79D0E5518B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Left rotation without the help of List", "Left rotation without the help of List\Left rotation without the help of List.csproj", "{2A681E56-D212-410E-93BB-E9CB6F612BCC}"
@@ -24,6 +22,12 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "classExample", "classExample\classExample.csproj", "{0C9D1DA5-B528-4AA8-813B-22CFC6EF9A03}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alic and Bob", "Alic and Bob\Alic and Bob.csproj", "{D112AE56-1062-48B8-8B8D-4F89C0E3DE60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sorting", "Sorting", "{B55E27E6-6514-4DE2-9513-5621C8EAE1E7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "insertionSort", "selectionSort\insertionSort.csproj", "{C97662CD-E3DF-4BC8-8BB9-35A2A1539BDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "selectionSorts", "selectionSorts\selectionSorts.csproj", "{ABC548DA-3A28-4DA3-B2EA-C8ADEDBF66F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,10 +47,6 @@ Global
 		{DCAAF87F-83A2-410A-B6A0-9C844198E504}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCAAF87F-83A2-410A-B6A0-9C844198E504}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCAAF87F-83A2-410A-B6A0-9C844198E504}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DAA467E2-E8DB-4DD5-A055-E0693BC8DF7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DAA467E2-E8DB-4DD5-A055-E0693BC8DF7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DAA467E2-E8DB-4DD5-A055-E0693BC8DF7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DAA467E2-E8DB-4DD5-A055-E0693BC8DF7B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D0A4D536-4A65-4C4B-A649-ED79D0E5518B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D0A4D536-4A65-4C4B-A649-ED79D0E5518B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0A4D536-4A65-4C4B-A649-ED79D0E5518B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -75,9 +75,21 @@ Global
 		{D112AE56-1062-48B8-8B8D-4F89C0E3DE60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D112AE56-1062-48B8-8B8D-4F89C0E3DE60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D112AE56-1062-48B8-8B8D-4F89C0E3DE60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C97662CD-E3DF-4BC8-8BB9-35A2A1539BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C97662CD-E3DF-4BC8-8BB9-35A2A1539BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C97662CD-E3DF-4BC8-8BB9-35A2A1539BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C97662CD-E3DF-4BC8-8BB9-35A2A1539BDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABC548DA-3A28-4DA3-B2EA-C8ADEDBF66F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABC548DA-3A28-4DA3-B2EA-C8ADEDBF66F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABC548DA-3A28-4DA3-B2EA-C8ADEDBF66F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABC548DA-3A28-4DA3-B2EA-C8ADEDBF66F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C97662CD-E3DF-4BC8-8BB9-35A2A1539BDD} = {B55E27E6-6514-4DE2-9513-5621C8EAE1E7}
+		{ABC548DA-3A28-4DA3-B2EA-C8ADEDBF66F2} = {B55E27E6-6514-4DE2-9513-5621C8EAE1E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D31C7D93-79A6-4423-A704-3023A6118407}
