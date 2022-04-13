@@ -3,6 +3,23 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
+
+
+/*
+ 
+Pseudocode
+
+mergeSort(array)
+if array.length <= 1 then
+return array 
+left = new array
+right = new array 
+mid = left+ right/2
+mergeSort(left)
+mergeSort(right)
+merge(left, right)  
+
+ */
 namespace mergeSort
 {
     internal class Program
