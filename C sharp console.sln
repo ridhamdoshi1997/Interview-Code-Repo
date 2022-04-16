@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Group Angrams", "Group Angr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isomorphic String", "Isomorphic String\Isomorphic String.csproj", "{358A99B9-2323-4720-942C-E32593063C38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valid Parentheses", "Valid Parentheses\Valid Parentheses.csproj", "{86A04FCF-FFF9-4120-A6A2-2EBF9847D820}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -109,6 +111,10 @@ Global
 		{358A99B9-2323-4720-942C-E32593063C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{358A99B9-2323-4720-942C-E32593063C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{358A99B9-2323-4720-942C-E32593063C38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86A04FCF-FFF9-4120-A6A2-2EBF9847D820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A04FCF-FFF9-4120-A6A2-2EBF9847D820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A04FCF-FFF9-4120-A6A2-2EBF9847D820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A04FCF-FFF9-4120-A6A2-2EBF9847D820}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -120,6 +126,7 @@ Global
 		{E9039EEA-1DFE-4C6A-9BCF-36A084DBAC60} = {B55E27E6-6514-4DE2-9513-5621C8EAE1E7}
 		{1D25FD5B-8BE6-472B-A8F7-C0ADDBB04C60} = {D27E854E-C9D1-45C5-97EF-F60DBC2BF63C}
 		{358A99B9-2323-4720-942C-E32593063C38} = {D27E854E-C9D1-45C5-97EF-F60DBC2BF63C}
+		{86A04FCF-FFF9-4120-A6A2-2EBF9847D820} = {D27E854E-C9D1-45C5-97EF-F60DBC2BF63C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D31C7D93-79A6-4423-A704-3023A6118407}
