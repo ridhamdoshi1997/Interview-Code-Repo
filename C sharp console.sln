@@ -35,11 +35,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "quickSort", "quickSort\quic
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Practice", "Practice", "{D27E854E-C9D1-45C5-97EF-F60DBC2BF63C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Group Angrams", "Group Angrams\Group Angrams.csproj", "{1D25FD5B-8BE6-472B-A8F7-C0ADDBB04C60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Group Angrams", "Group Angrams\Group Angrams.csproj", "{1D25FD5B-8BE6-472B-A8F7-C0ADDBB04C60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Isomorphic String", "Isomorphic String\Isomorphic String.csproj", "{358A99B9-2323-4720-942C-E32593063C38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Isomorphic String", "Isomorphic String\Isomorphic String.csproj", "{358A99B9-2323-4720-942C-E32593063C38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Valid Parentheses", "Valid Parentheses\Valid Parentheses.csproj", "{86A04FCF-FFF9-4120-A6A2-2EBF9847D820}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Valid Parentheses", "Valid Parentheses\Valid Parentheses.csproj", "{86A04FCF-FFF9-4120-A6A2-2EBF9847D820}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Square Root", "Square Root\Square Root.csproj", "{0DA0F29D-6C26-4937-BB25-BF04DFFB479F}"
 EndProject
