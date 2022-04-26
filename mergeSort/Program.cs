@@ -30,7 +30,7 @@ namespace mergeSort
             {
                 return arr;
             }
-            int Mid = arr.Length/2; // To find the Mid point of the Array
+            int Mid = arr.Length/2; // To find the Mid point of the Array //10 7 8 9 1 5
             int[] left = new int[Mid];
             int[] right;
             int[] result = new int[arr.Length];
