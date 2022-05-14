@@ -21,32 +21,32 @@ namespace Serializing_and_Deserializing_Binary_Tree
             return s;
         }
 
-        public static Node<int> deserialize(String root)
-        {
-            char[] ch = root.ToString().ToCharArray();
-            Node<int> node = new Node<int>(int.Parse(ch[0].ToString()));
-            return deser(ch,node);
+        //public static Node<int> deserialize(String root)
+        //{
+        //    char[] ch = root.ToString().ToCharArray();
+        //    Node<int> node = new Node<int>(int.Parse(ch[0].ToString()));
+        //    return deser(ch,node);
             
-        }
+        //}
         public static int i = 0;
-        public static Node<int> deser(char[] root, Node<int> node)
-        {
+        //public static Node<int> deser(char[] root, Node<int> node)
+        //{
             
-            if(root[i] == 'x')
-            {
-                node = null;
-                i++;
-                return node;
+        //    if(root[i] == 'x')
+        //    {
+        //        node = null;
+        //        i++;
+        //        return node;
                 
-            }
-            else 
-            {
-                node = new Node<int>(int.Parse(root[i].ToString()));
-                node.val = root[i];
-                i++;
-            }
-            deser();
-        }
+        //    }
+        //    else 
+        //    {
+        //        node = new Node<int>(int.Parse(root[i].ToString()));
+        //        node.val = root[i];
+        //        i++;
+        //    }
+        //    deser();
+        //}
 
         /** Driver class, do not change **/
         public class Node<T>
@@ -89,9 +89,9 @@ namespace Serializing_and_Deserializing_Binary_Tree
             int pos = 0;
             Node<int> tree = BuildTree(strs, ref pos, int.Parse);
             string s = serialize(tree);
-            Node<int> newRoot = deserialize(serialize(tree));
-            List <String> output = new List<string>();
-            printTree(newRoot, output);
+            //Node<int> newRoot = deserialize(serialize(tree));
+            //List <String> output = new List<string>();
+            //printTree(newRoot, output);
             Console.WriteLine(s);
         }
 
