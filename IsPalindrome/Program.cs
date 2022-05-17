@@ -5,21 +5,21 @@ namespace IsPalindrome
 {
     internal class Program
     {
-        public static bool IsPalindrome(string str)
+        public static bool IsPalindrome(string str, int left, int right)
         {
            
-            string s =Regex.Replace(str, @"[^A-Za-z0-9]+","").ToLower();
+            //string s =Regex.Replace(str, @"[^A-Za-z0-9]+","").ToLower();
             int i = 0;
-            int len = s.Length - 1;
-            while (i < len)
+            int len = str.Length - 1;
+            while (left < right)
             {
-                if (s[i] != s[len])
+                if (str[i] != str[len])
                 {
                     return false;
                 }
 
-                i++;
-                len--;
+                left++;
+                right--;
             }
             return true;
 
@@ -47,9 +47,25 @@ namespace IsPalindrome
             */
 
         }
+        public static bool almostPalindrome(string str)
+        {
+            string s = Regex.Replace(str, @"[^A-Za-z0-9]+", "").ToLower();
+            int left = 0;
+            int right =str.Length - 1;
+            while(left<right)
+            {
+                if (s[left] != s[right])
+                {
+                    return IsPalindrome(s, left+1, right)|| IsPalindrome(s, left, right-1);
+                }
+                left++;
+                right--;
+            }
+            return true;
+        }
         static void Main(string[] args)
         {
-            Console.WriteLine(IsPalindrome("A man, a plan, a canal: Panama"));
+            Console.WriteLine(almostPalindrome("abccdba"));
         }
     }
 }
