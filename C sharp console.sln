@@ -69,29 +69,31 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sherlock and the Valid Stri
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Special String Again", "Special String Again\Special String Again.csproj", "{E9CA9018-4D89-4E53-9B77-DA45A8572C7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common Child", "Common Child\Common Child.csproj", "{ABF1B7ED-4FBD-483D-88D4-1B365FC66CC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common Child", "Common Child\Common Child.csproj", "{ABF1B7ED-4FBD-483D-88D4-1B365FC66CC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Move Zeroes", "Move Zeroes\Move Zeroes.csproj", "{3B023B55-C58E-496E-A596-553E2A510897}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Move Zeroes", "Move Zeroes\Move Zeroes.csproj", "{3B023B55-C58E-496E-A596-553E2A510897}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Top Amazon", "Top Amazon", "{50C9EE6A-791C-4DE6-A73A-C6522226599B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String to Int", "String to Int\String to Int.csproj", "{56033E15-7100-476E-BEEB-2F91395304DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "String to Int", "String to Int\String to Int.csproj", "{56033E15-7100-476E-BEEB-2F91395304DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Integer to Roman", "Integer to Roman\Integer to Roman.csproj", "{69E26926-FF26-40F9-A3E8-FB404B0777A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Integer to Roman", "Integer to Roman\Integer to Roman.csproj", "{69E26926-FF26-40F9-A3E8-FB404B0777A0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Combination Sum", "Combination Sum\Combination Sum.csproj", "{4C5BDB5B-115F-43E5-A016-DF95BA551167}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Combination Sum", "Combination Sum\Combination Sum.csproj", "{4C5BDB5B-115F-43E5-A016-DF95BA551167}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3SUM", "3SUM\3SUM.csproj", "{A088C3EB-4CAD-424E-8F97-AD23A2536FBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3SUM", "3SUM\3SUM.csproj", "{A088C3EB-4CAD-424E-8F97-AD23A2536FBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evaluate Reverse Polish Notation", "Evaluate Reverse Polish Notation\Evaluate Reverse Polish Notation.csproj", "{6AA4D355-04F7-4943-A2B7-CACB301B6D98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Evaluate Reverse Polish Notation", "Evaluate Reverse Polish Notation\Evaluate Reverse Polish Notation.csproj", "{6AA4D355-04F7-4943-A2B7-CACB301B6D98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rotate List", "Rotate List\Rotate List.csproj", "{BCFCCD3E-2775-4DB3-9408-82C447A4E679}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rotate List", "Rotate List\Rotate List.csproj", "{BCFCCD3E-2775-4DB3-9408-82C447A4E679}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roman to Int", "Roman to Int\Roman to Int.csproj", "{E0597460-049E-472A-A731-6363587ADD68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roman to Int", "Roman to Int\Roman to Int.csproj", "{E0597460-049E-472A-A731-6363587ADD68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kth Largest Element in an Array", "Kth Largest Element in an Array\Kth Largest Element in an Array.csproj", "{04586B21-EAF7-4B59-AD85-BECD81B788BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kth Largest Element in an Array", "Kth Largest Element in an Array\Kth Largest Element in an Array.csproj", "{04586B21-EAF7-4B59-AD85-BECD81B788BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Find First and Last Position of Element in Sorted Array", "Find First and Last Position of Element in Sorted Array\Find First and Last Position of Element in Sorted Array.csproj", "{59300DA5-B9A6-4422-9B4C-A5630765A563}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Find First and Last Position of Element in Sorted Array", "Find First and Last Position of Element in Sorted Array\Find First and Last Position of Element in Sorted Array.csproj", "{59300DA5-B9A6-4422-9B4C-A5630765A563}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binary Tree Level Order Traverse", "Binary Tree Level Order Traverse\Binary Tree Level Order Traverse.csproj", "{548572E2-1B56-46FB-984B-CE21D7A0C09A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -263,6 +265,10 @@ Global
 		{59300DA5-B9A6-4422-9B4C-A5630765A563}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59300DA5-B9A6-4422-9B4C-A5630765A563}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59300DA5-B9A6-4422-9B4C-A5630765A563}.Release|Any CPU.Build.0 = Release|Any CPU
+		{548572E2-1B56-46FB-984B-CE21D7A0C09A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{548572E2-1B56-46FB-984B-CE21D7A0C09A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{548572E2-1B56-46FB-984B-CE21D7A0C09A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{548572E2-1B56-46FB-984B-CE21D7A0C09A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -309,6 +315,7 @@ Global
 		{E0597460-049E-472A-A731-6363587ADD68} = {50C9EE6A-791C-4DE6-A73A-C6522226599B}
 		{04586B21-EAF7-4B59-AD85-BECD81B788BD} = {50C9EE6A-791C-4DE6-A73A-C6522226599B}
 		{59300DA5-B9A6-4422-9B4C-A5630765A563} = {50C9EE6A-791C-4DE6-A73A-C6522226599B}
+		{548572E2-1B56-46FB-984B-CE21D7A0C09A} = {50C9EE6A-791C-4DE6-A73A-C6522226599B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D31C7D93-79A6-4423-A704-3023A6118407}
